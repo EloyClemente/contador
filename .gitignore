@@ -9,3 +9,8 @@ styles.bat
 
 webpack.config.js
 
+package.json
+
+package-lock.json
+
+prepros-6.config
