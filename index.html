@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Contador</title>
+
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+
+
+	<div class="contador">
+
+		<div class="contador__display">
+
+			<p id="display_segundos" class="display_segundos"></p>
+
+			<div class="capaDisplay">
+				<p class="capaDisplay__cifras" id="display_horas"></p>
+				<p class="capaDisplay__texto capaDisplay__texto--horas">horas</p>
+			</div>
+			<div class="capaDisplay">
+				<p class="capaDisplay__cifras" id="display_minutos"></p>
+				<p class="capaDisplay__texto">minutos</p>
+			</div>
+			
+		</div>
+
+		
+
+		<div class="contador__botones">
+
+			<div id="playStop" class="iconPlay">
+				<div class="iconPlay__line iconPlay__line--1"></div>
+				<div class="iconPlay__line iconPlay__line--2"></div>
+				<div class="iconPlay__line iconPlay__line--3"></div>
+			</div>
+
+			<p class="boton_reset" id="botonReset">Reset</p>
+
+			<div id="confirmarReset" class="confirmarReset">
+				<p id="botonConfirmar" class="botonConfirmar">Confirmar</p>
+				<p id="botonDescartar" class="botonDescartar">Descartar</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="dist/bundler.js"></script>
+</body>
+</html>
