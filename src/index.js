@@ -37,9 +37,6 @@ function iniciar()
 
 		calcular()
 
-		 console.log(localStorage.getItem('estado')) 
-
-
 
 		if(localStorage.getItem('estado') == 'play')
 		iniciar()
